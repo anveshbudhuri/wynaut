@@ -1,0 +1,33 @@
+{
+  "name": "wynaut",
+  "version": "1.0.0",
+  "description": "Trying to become Wobbuffet someday",
+  "main": "index.js",
+  "scripts": {
+    "start": "TOKEN=xoxb-YLcKjzQO17piPcNrMOpww7gf npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anveshbudhuri/wynaut.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "D.E. Goodman-Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anveshbudhuri/wynaut/issues"
+  },
+  "homepage": "https://github.com/anveshbudhuri/wynaut#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "^4.6.2",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^3.5.5",
+    "express": "^4.17.1"
+  }
+}
